@@ -1,7 +1,7 @@
 package app;
 
 import app.dao.DataRepository;
-import app.model.DataHandler;
+import app.controller.DataHandler;
 import app.view.UIOperator;
 
 public class Main {
