@@ -1,5 +1,7 @@
 package app;
 
+import app.model.DataHandler;
+
 public class Main {
 
     public static void main(String[] args) {
