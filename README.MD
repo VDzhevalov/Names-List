@@ -12,5 +12,7 @@ Names:
 4) Denis
 5) Tom
 
-Name: Lucy is in index 2
+Enter Name index: 
+2
+Name: Lucy is in index 2 in list
 ```
