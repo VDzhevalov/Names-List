@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static app.view.NameIndexView.getIndexForData;
 import static java.lang.String.format;
 
-public class DataHandler {
+public class DataController {
 
     public String formOutput(List<String> list) {
         int index = getIndexForData();
