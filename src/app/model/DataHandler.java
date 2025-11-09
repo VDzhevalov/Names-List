@@ -3,16 +3,18 @@ package app.model;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import static app.view.NameIndexView.getIndexForData;
 import static java.lang.String.format;
 
 public class DataHandler {
 
-    public String formOutput(List<String> list, int index) {
+    public String formOutput(List<String> list) {
+        int index = getIndexForData();
         try {
             String name = list.get(index);
-            return "Name: " + name + " is in index " + index;
+            return format("Name: %s is in index %d in list", name, index);
         } catch (IndexOutOfBoundsException e) {
-            return "Wrong index!";
+            return "Wrong index! Must be between 0 and " + (list.size() - 1);
         }
     }
 
