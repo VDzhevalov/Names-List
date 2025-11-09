@@ -1,4 +1,4 @@
-package app;
+package app.dao;
 
 import java.util.ArrayList;
 import java.util.List;

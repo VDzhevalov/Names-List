@@ -1,5 +1,6 @@
 package app;
 
+import app.dao.DataRepository;
 import app.model.DataHandler;
 
 public class Main {
